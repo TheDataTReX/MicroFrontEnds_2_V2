@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "microfrontends", "MicroFrontEnds\microfrontends.esproj", "{280B8728-AD8E-4558-A40A-4996DAD54CAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{280B8728-AD8E-4558-A40A-4996DAD54CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280B8728-AD8E-4558-A40A-4996DAD54CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280B8728-AD8E-4558-A40A-4996DAD54CAC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{280B8728-AD8E-4558-A40A-4996DAD54CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280B8728-AD8E-4558-A40A-4996DAD54CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280B8728-AD8E-4558-A40A-4996DAD54CAC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DED9D34C-17A6-4EC5-B75D-3BC03D766937}
+	EndGlobalSection
+EndGlobal

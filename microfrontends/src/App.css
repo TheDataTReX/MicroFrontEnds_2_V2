@@ -1,0 +1,125 @@
+.app-container {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.main-content {
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ui-section, .hooks-section {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.ui-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hooks-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+/* Estilos por defecto para todos los botones */
+button {
+    background-color: #007bff; /* Color de fondo por defecto */
+    color: white; /* Texto en color blanco para contrastar con el fondo azul */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+    /* Estilo para botones al pasar el cursor por encima */
+    button:hover {
+        background-color: #0056b3; /* Color de fondo más oscuro para el estado hover */
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Sombra para resaltar el botón */
+        transform: translateY(-2px); /* Ligeramente elevado para dar sensación de clic */
+    }
+
+    /* Estilo para botones cuando están enfocados o activos */
+    button:active,
+    button:focus {
+        outline: none; /* Remueve el contorno predeterminado en navegadores */
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 0 0 3px rgba(38,143,255,0.5); /* Sombra más definida y halo para indicar foco */
+    }
+
+/* Estilos para ProfileCard */
+.profile-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+    .profile-card img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    .profile-card h2 {
+        margin: 10px 0;
+    }
+
+    .profile-card p {
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+/* Estilos específicos para el tema claro */
+.app-container.light {
+    background-color: #f0f0f0; /* Color de fondo claro */
+    color: #333; /* Color de texto para tema claro */
+}
+
+/* Estilos específicos para el tema oscuro */
+.app-container.dark {
+    background-color: #333; /* Color de fondo oscuro */
+    color: #f0f0f0; /* Color de texto para tema oscuro */
+}
+
+/* Estilos específicos para el tema blue */
+.app-container.blue {
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color de texto para tema blue */
+}
+
+/* Estilos específicos para el tema green */
+.app-container.green {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color de texto para tema green */
+}
+
+/* Estilos específicos para el tema purple */
+.app-container.purple {
+    background-color: #800080; /* Color de fondo morado */
+    color: white; /* Color de texto para tema purple */
+}
+
+/* Opcionalmente, puedes agregar más estilos específicos para otros temas aquí */

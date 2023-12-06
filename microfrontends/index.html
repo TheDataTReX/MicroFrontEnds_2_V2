@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MicroFrontEnds</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        div#root, div#micro-frontend-uno, div#micro-frontend-dos {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-bottom: 1px solid #ccc;
+        }
+
+        div#root {
+            background-color: #f8f8f8;
+        }
+
+        div#micro-frontend-uno {
+            background-color: #e9ecef;
+        }
+
+        div#micro-frontend-dos {
+            background-color: #dee2e6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenedor para el Micro Frontend Principal -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
